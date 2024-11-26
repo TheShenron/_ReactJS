@@ -1,0 +1,82 @@
+<form>
+<lable for='phone'>phone</lable>
+<input  id='phone'/>
+</form>
+
+
+Note:screen mirror
+
+others ways to lable the inputs
+and these lable working by there prioroty (see in browser)
+
+1.Arial-lable
+<input arial-label='phone' />
+
+
+Note: In browser we are having call accessbility tree view
+ctrl + shift + p
+search for accessbility and enable it
+
+
+2.Arial-labelBy
+<input arial-labelby='phone' />
+
+3.Placeholder
+<input placeholder='phone' />
+
+4.Arial-live
+<input arial-live='polite' />
+off
+asswrtive
+it has three different options
+
+
+Note:Chrome color dev tool
+accessbility tree view -> Rendring -> we can text for blur, low cotrast and othre screens view
+another one is color contrast ratio -> chrome has inbuilt option in color picker
+
+Note: We shold use all symentic element and one page should has one h1 teg (h1 tegs are not for insreasing the font size)
+
+Note: Click event need to use with button only not for div
+
+Note: use of ancre teg (<a/>) with the help of tab we can highlite and should have meaningful text not only click me
+
+Note: Super import to use screen reader to text our app
+
+5.Tabindex
+<div tabindex='0' />
+either 0 or negative otherise it wii focuse first on that element
+negative value we can only focus by JS code not by the user tab,
+if some div has scroll there we can user tabindex as 0 so that user can focus and scroll on it.
+but we need to use arial-lable as well to help screeen reader or maybe browser
+
+
+important
+we can remove the default tab focus border by
+button{outline:'none'}
+but whenever we are removing any default tag behavior then need to add by css
+button:focus-visible{
+    border:'1px solid red'
+}
+
+
+important6
+Skipline
+when user will come to the web page for see the content and press tab need to able the skip and reach to the main content
+
+Important 
+if we are using vidoe or audio we need to use capiton
+
+
+Note: proper spacing and padding so that we can easily clikc on the buttons and need to attach lable it possible
+
+
+important
+Need to leand about preferew-reduse-motion (html-css)
+
+Note: Autofocus for inputbox
+
+
+important: Dont forget to test webpage with chrome lighthouse (general test)
+
+Note:Need to explore chrome Accessbility thengs

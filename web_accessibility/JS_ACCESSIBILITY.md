@@ -1,9 +1,3 @@
-# _WebDev
-
-
-Here’s the accessibility best practices guide formatted for a `README.md` file:  
-
-```markdown
 # Accessibility Best Practices for Web Development
 
 This guide outlines key accessibility best practices to make your web applications inclusive and usable by everyone.
